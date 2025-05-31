@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    #main_menu{
+        list-style-type: none;
+        font-size: 15px;
+        background-color: rgb(194, 195, 194);
+        margin-top: 15px;
+        padding: 12px;
+        text-align: center;
+    }
+    #main_menu li{
+        padding: 0 50px 0 50px;
+        display: inline;
+    }
+    #main_menu a{
+        color: black;
+        text-decoration: none;
+    }
+    #left{
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+    .line{
+        margin-top: 25px;
+        border-top: solid 1px #4a4949;
+    }
+    #nav{
+        background-color: rgb(194, 195, 194);
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px;
+        width: 100%;
+    }
+    #nav h2{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 20px;
+    }
+    .image img{
+        width: 70px;
+    }
+    .image, .review{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .review{
+        list-style-type: none;
+        margin:  0 0 0 10px;
+    }
+    .review span{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .review li{
+        margin: 5px 0 5px 5px;
+    }
+    .butn{
+        display: inline;
+        font-size: 13px;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin:10px 0 0 70px;
+        background-color: rgb(137, 216, 216);
+    }
+    .container {
+        width: 45%;
+        margin: 0 2.5%;
+        padding: 15px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        float: left;
+    }
+    @media screen and (max-width: 750px){
+        #main_menu li{
+            display: block;
+            padding: 10px 0;
+            float: none;
+        }
+        .image, .butn {
+            display: block;
+            margin: 0 5px;
+            text-align: center;
+        }
+        .review{
+            display: block;
+            text-align: center;
+        }
+        .image img {
+            width: 50px;
+        }
+
+        .butn {
+            margin: 10px auto;
+        }
+        .container{
+            float: none;
+            margin: 15px 0;
+            width: 90%;
+        }
+        .left{
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+<body>
+    <ul id="main_menu">
+        <li id="left"><a href="health_website.html">Back(home)</a></li>
+        <li><a href="excersie_guide.html">Excersice Guide</a></li>
+        <li><a href="healthy_diet.html">Healthy Diet</a></li>
+        <li><a href="recover.html">Recovery</a></li>
+        <li><a href="community.html">Community</a></li>
+    </ul>
+
+    <div class="clear"></div>
+    <div class="line"></div>
+
+    <div id="nav">
+       <h2>Tip&Review</h2>
+    </div>
+    
+    <div class="container">
+    <div class="left">
+        <div class="image"><img src="profile.png"></div>
+        <ul class="review">
+            <li><span>올라잇</span></li>
+            <li>#리뷰 2 #사진1</li>
+        </ul>
+        <button class="butn">팔로우</button>
+    </div>
+    <img src="bench.png" width="270px">
+    <p>벤치프레스 중량 꿀팁은 중량을 버티세요. 자신이 무겁다고</p>
+    <p>느끼고 있는 중량으로 가슴에 닿을 정도로 내린채로 2~3초</p>
+    <p>버티면서 해보세요!</p>
+    <p>그리고 호흡도 굉장히 중요한데 복식 호흡이 아닌 가슴에 숨</p>
+    <p>을 넣어 주어야 도움이 많이 됩니다.</p>
+    <p>□반응 남기기: <input type="checkbox">좋아요
+    <input type="checkbox">싫어요
+    &nbsp;&nbsp;Date: 05/03</p>
+    </div>
+
+    <div class="container">
+    <div class="left">
+        <div class="image"><img src="profile.png"></div>
+        <ul class="review">
+            <li><span>휴미스턴</span></li>
+            <li>#리뷰 3 #사진1</li>
+        </ul>
+        <button class="butn">팔로우</button>
+    </div>
+    <img src="overhead.png" width="270">
+    <p>먼저 들어올리기 전에 숨을 크게 마시고 복부를 팽창시켜요.</p>
+    <p>그리고 엄지 발가락과 검지발가락으로 강하게 꼬집어주세요.</p>
+    <p>그런 다음 프레스를 하면 쉽게 들릴거에요!</p>
+    <br><br>
+    <p>□반응 남기기: <input type="checkbox">좋아요
+    <input type="checkbox">싫어요
+    &nbsp;&nbsp;Date: 06/01</p>
+    <div>
+</body>
+</html>
